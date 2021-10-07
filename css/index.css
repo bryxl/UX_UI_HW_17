@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 78px;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 68px;
+	font-weight: 100;
+}
+
+h3 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 48px;
+	font-weight: 100;
+}
+
+h4 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 34px;
+	font-weight: normal;
+}
+
+h5 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 32px;
+	font-weight: normal;
+}
+
+h6 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: normal;
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	line-height: 50px;
+}
+
+caption {
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	text-align: left;
+}
+
+
+/* Navigation */
+
+.navigation {
+	width: 93%;
+	padding: 1%;
+}
+
+.inline-block-logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo {
+	margin-left: 50px;
+	width: 60px;
+	height: auto;
+}
+
+
+ul {
+	list-style-type: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+}
+
+li {
+	padding: 10px;
+	display: inline;
+	color: rgb(71, 71, 71);
+}
+
+li:hover {
+	color: black;
+}
+
+/* Hero Image */
+
+.heroImg {
+	height: 1100px;
+	padding: 25px;
+	padding-top: 50px;
+
+}
+
+.content {
+	display: grid;
+	padding: 10px;
+	grid-template-rows: 1fr 1fr;
+}
+
+.aboutMe {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+#headshot {
+	margin: 8px;
+	width: 300px;
+	height: auto;
+}
+
+.skills {
+	width: 75%;
+	margin-left: 33%;
+	display: inline;
+}
+
+.skills h4 {
+	margin: 0px;
+}
+
+
+button {
+	background-color: transparent;
+	border: 2px solid #1827DE;
+	color: #1827DE;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 32px;
+	margin: 10px;
+}
+
+button:hover {
+	background-color: #1827DE;
+	border: none;
+	color: white;
+}
+
+/* Footer */
+
+footer {
+	height: 300px;
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright {
+	margin-left: 80px;
+}
+
+
+address {
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	padding: 5px;
+}
