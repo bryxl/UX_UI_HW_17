@@ -59,8 +59,7 @@ caption {
 /* Navigation */
 
 .navigation {
-	width: 93%;
-	padding: 1%;
+
 }
 
 .inline-block-logo {
@@ -119,7 +118,6 @@ li:hover {
 }
 
 .skills {
-	width: 75%;
 	margin-left: 33%;
 	display: inline;
 }
@@ -153,7 +151,7 @@ button:hover {
 footer {
 	height: 300px;
 	padding: 20px;
-	width: 100%;
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
